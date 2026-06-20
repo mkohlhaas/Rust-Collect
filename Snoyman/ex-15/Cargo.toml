@@ -1,0 +1,8 @@
+[package]
+name = "ex-15"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.validation]
+git = "https://github.com/snoyberg/validation-rs"
+rev = "0a7521f7022262bb00aea61761f76c3dd5ccefb5"
