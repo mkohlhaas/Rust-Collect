@@ -1,0 +1,5 @@
+- The `collect` method is very flexible.
+- There's no magic involved in `collect`, just the FromIterator trait and the behavior of the types that implement it.
+- The downside of `collect` is that, since it's not structure preserving like map or traverse, you'll sometimes need type annotations.
+  - Get used to turbofish!
+- There are lots of useful impls of FromIterator available
